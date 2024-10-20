@@ -58,7 +58,7 @@ This command will read text from `sample.txt`, flush the database, create a vect
 #0  __GI_raise (sig=sig@entry=6) at ../sysdeps/unix/sysv/linux/raise.c:51
 #1  0x00007f76a0f938cb in __GI_abort () at abort.c:100
 #2  0x00007f76a0f833fa in __assert_fail_base (fmt=0x7f76a110a6c0 "%s%s%s:%u: %s%sAssertion `%s' failed.\n%n", assertion=assertion@entry=0x561c4d73522f "ident",
-    file=file@entry=0x561c4d707010 "/garantia.cluster/dmcproxy/dmc/bdb/identity.cpp", line=line@entry=320,
+    file=file@entry=0x561c4d707010 "/path/to/file/internal/identity.cpp", line=line@entry=320,
     function=function@entry=0x561c4d707300 <dmc_bdb_identity_setuser_fault_record::__PRETTY_FUNCTION__> "void dmc_bdb_identity_setuser_fault_record(bdb_identity_t*)") at assert.c:92
 #3  0x00007f76a0f83472 in __GI___assert_fail (assertion=assertion@entry=0x561c4d73522f "ident", file=file@entry=0x561c4d707010 "/garantia.cluster/dmcproxy/dmc/bdb/identity.cpp", line=line@entry=320,
     function=function@entry=0x561c4d707300 <dmc_bdb_identity_setuser_fault_record::__PRETTY_FUNCTION__> "void dmc_bdb_identity_setuser_fault_record(bdb_identity_t*)") at assert.c:101
